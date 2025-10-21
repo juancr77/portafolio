@@ -12,6 +12,8 @@
 /* --- ÍCONOS DE REDES SOCIALES --- */
 .social-icons {
   display: flex;
+  flex-wrap: wrap; /* Permite que los iconos se ajusten en pantallas pequeñas */
+  justify-content: center; /* Centra los iconos */
   gap: 50px;
   margin-bottom: 25px;
 }
@@ -32,6 +34,7 @@
 .facebook:hover { color: #1877f2; }
 .spotify:hover { color: #1db954; }
 .linkedin:hover { color: #0a66c2; }
+.whatsapp:hover { color: #25d366; }
 
 /* --- GRUPO DE BOTONES DE CONTACTO --- */
 .button-group {
@@ -70,7 +73,7 @@
 
 /* Efecto hover específico para el botón de LINKEDIN */
 .linkedin-btn:hover {
-  background-color: #0a66c2; /* Azul de LinkedIn */
+  background-color: #481de2; 
   color: white;
   border: 2px solid white;
   transform: scale(1.05);
@@ -94,3 +97,4 @@
     width: 250px;
   }
 }
+
